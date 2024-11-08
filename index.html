@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Personalizzata</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  </head>
+  <body class="bg-dark">
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container">
+    
+        <a class="navbar-brand" href="#">
+          <img src="./assets/netflix_logo.png" alt="Logo" height="30" />
+        </a>
+
+        <!-- Hamburger  -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu 2 -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tv Show</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recently Added</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My list</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- menu dx -->
+        <div class="d-flex align-items-center">
+          <a href="#" class="text-light mx-2"><i class="bi bi-search"></i></a>
+
+          <span class="navbar-text text-light mx-2">KIDS</span>
+
+          <a href="#" class="text-light mx-2"><i class="bi bi-bell"></i></a>
+
+          <div class="dropdown">
+            <a
+              href="#"
+              class="d-flex align-items-center text-light text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              <img
+                src="./assets/avatar.png"
+                alt="Avatar"
+                width="30"
+                height="30"
+              />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="./profilo.html">Profilo</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-start pt-2">
+        <div class="d-flex align-items-center">
+          <h2 class="me-3 text-white">TV Shows</h2>
+          <div class="dropdown">
+            <button
+              class="btn btn-outline-dark btn-outline-light border text-white dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Generi
+            </button>
+            <ul class="dropdown-menu bg-secondary text-white ps-2">
+              <li>
+                <a class="dropdown-items text-decoration-none text-white"
+                  >Fantasy</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-items text-decoration-none text-white"
+                  >Avventura</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-items text-decoration-none text-white"
+                  >Horror</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-items text-decoration-none text-white"
+                  >Anime</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-items text-decoration-none text-white"
+                  >Fantascienza</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-items text-decoration-none text-white"
+                  >Cultura</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-items text-decoration-none text-white"
+                  >Musical</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-items text-decoration-none text-white"
+                  >Sport</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-items text-decoration-none active"
+                  >Altri Generi</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5 text-center text-white">
+      <h3 class="text-start">Trending Now</h3>
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+          <img
+            src="./assets/media/media0.webp"
+            alt=""
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+          <img
+            src="./assets/media/media1.jpg"
+            alt=""
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+          <img
+            src="./assets/media/media10.jpg"
+            alt=""
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+          <img
+            src="./assets/media/media11.jpg"
+            alt=""
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+          <img
+            src="./assets/media/media12.jpg"
+            alt=""
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+          <img
+            src="./assets/media/media13.jpg"
+            alt=""
+            class="img-fluid rounded"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container my-5 text-center text-white">
+        <h3 class="text-start">Watch it again</h3>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media14.webp"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media15.jpg"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media16.webp"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media17.jpg"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media18.jpg"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media19.webp"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5 text-center text-white">
+        <h3 class="text-start">New Releases</h3>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media2.webp"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media20.jpg"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media21.webp"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media22.webp"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media23.webp"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <img
+              src="./assets/media/media24.jpg"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer bg-dark py-4">
+        <div class="container">
+          <div class="row">
+            <!-- Icone -->
+            <div class="col-12 mb-3 ms">
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-youtube fa-2x"></i></a>
+              </div>
+      
+            <!-- Link -->
+            <div class="col-6 col-md-3 mb-2 ">
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Audio and subtitles</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Media Center</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Privacy</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Contact us</a>
+            </div>
+            <div class="col-6 col-md-3 mb-2">
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Audio description</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Investitor relations</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Legal notices</a>
+            </div>
+            <div class="col-6 col-md-3 mb-2">
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Help center</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Jobs</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Chookie preferences</a>
+            </div>
+            <div class="col-6 col-md-3 mb-2">
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Gift cards</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">Terms of use</a>
+              <a href="#" class="d-block text-secondary text-decoration-none my-2">corporate information</a>
+            </div>
+          </div>
+      
+          <!-- roba infondo -->
+          <div class="row mt-3 ">
+            <div class="col-12 ms-0">
+              <button class="btn btn-outline-secondary btn-sm  " type="button">Service code</button>
+            </div>
+            <div class="col-12 mt-3 text-secondary small">
+              &copy; 1997-2019 Netflix, Inc. (i-0d00fcda2fdf9c0de)
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
